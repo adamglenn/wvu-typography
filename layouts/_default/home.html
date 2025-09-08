@@ -1,7 +1,54 @@
 
 {{ define "main" }}
 
-  {{ partial "bookshop_bindings" `(dict "topper" .Params.topper "title" .Params.title "blocks" .Params.content_blocks)` }}
-  {{ partial "bookshop_partial" (slice "page-guide" (dict "topper" .Params.topper "title" .Params.title "blocks" .Params.content_blocks)) }}
-  
+  <div style="font-size: 3em;">
+
+    <p class="antonia-regular">Antonia Regular</p>
+
+    <p class="antonia-regular"><strong>Antonia Regular</strong></p>
+
+    <p class="antonia-regular"><em>Antonia Regular</em></p>
+
+    <!-- Antonia Light -->
+
+    <p class="antonia-light">Antonia Light</p>
+
+    <p class="antonia-light"><strong>Antonia Light</strong></p>
+
+    <p class="antonia-light"><em>Antonia Light</em></p>
+
+    <!-- Antonia Bold -->
+
+    <p class="antonia-bold">Antonia Bold</p>
+
+    <p class="antonia-bold"><strong>Antonia Bold</strong></p>
+
+    <p class="antonia-bold"><em>Antonia Bold</em></p>
+
+    <!-- Config Regular -->
+
+    <p class="config-regular">Config Regular</p>
+
+    <p class="config-regular"><strong>Config Regular</strong></p>
+
+    <p class="config-regular"><em>Config Regular</em></p>
+
+    <!-- Config Light -->
+
+    <p class="config-light">Config Light</p>
+
+    <p class="config-light"><strong>Config Light</strong></p>
+
+    <p class="config-light"><em>Config Light</em></p>
+
+    <!-- Config Extra Bold -->
+
+    <p class="config-extra-bold">Config Extra Bold</p>
+
+    <p class="config-extra-bold"><strong>Config Extra Bold</strong></p>
+
+    <p class="config-extra-bold"><em>Config Extra Bold</em></p>
+
+  </div>
+
 {{ end }}
